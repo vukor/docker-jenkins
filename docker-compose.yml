@@ -6,7 +6,9 @@ volumes:
 
 services:
   jenkins:
-    image: jenkins
+    build:
+      context: .
+    image: vukor/jenkins
     container_name: jenkins
     restart: always
     ports:
@@ -14,5 +16,4 @@ services:
     volumes:
       - jenkins-data:/var/jenkins_home/
       - /var/run/docker.sock:/var/run/docker.sock
-      - /usr/local/bin/docker:/usr/local/bin/docker
 
