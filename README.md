@@ -9,7 +9,7 @@ How it's work
 
 * Download project:
 
-    `` git clone https://github.com/vukor/jenkins.git ``
+    `` https://github.com/vukor/docker-jenkins.git ``
 
 * Install docker, docker-compose on your system
 
