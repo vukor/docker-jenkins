@@ -17,4 +17,3 @@ services:
       - jenkins-data:/var/jenkins_home/
       - ./backup:/backup/
       - /var/run/docker.sock:/var/run/docker.sock
-
