@@ -1,7 +1,7 @@
 docker-jenkins
 ===========
 
-This is dockerized Jenkins for build, test my projects. Build from offical image library/jenkins
+This is dockerized Jenkins for build, test my projects. Build from offical image library/jenkins.
 
 
 How it's work
