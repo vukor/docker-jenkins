@@ -35,13 +35,13 @@ How backup/restore settings
 
 * Go to "Jenkins Settings" -> "ThinBackup" -> "Settings" and set:
 
-`` Backup directory:			  /backup/ ``
+    `` Backup directory:			  /backup/ ``
 
-`` Backup schedule for full backups:	  0 0 * * 7 ``
+    `` Backup schedule for full backups:	  0 0 * * 7 ``
 
-`` Backup schedule for differential backups: 0 0 * * 1-6 ``
+    `` Backup schedule for differential backups: 0 0 * * 1-6 ``
 
-`` Max number of backup sets:		  12 ``
+    `` Max number of backup sets:		  12 ``
 
 * For restore from backup go to "Jenkins Settings" -> "ThinBackup" -> "Restore". Choose backup date in "restore backup from", set "Restore plugins" and press "Restore"
 
