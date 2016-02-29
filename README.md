@@ -17,10 +17,6 @@ How it's work
 
   `` docker volume create --name=jenkins-data  ``
 
-* Build image:
-
-    `` docker-compose build ``
-
 * Run Jenkins:
 
     `` docker-compose up -d ``
