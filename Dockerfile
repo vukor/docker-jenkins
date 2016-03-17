@@ -1,4 +1,4 @@
-## Version: 0.3
+## Version: 0.4
 FROM jenkins
 MAINTAINER Anton Bugreev <anton@bugreev.ru>
 
@@ -28,6 +28,9 @@ RUN dpkg -i /tmp/ansible.deb
 
 # Remove downloaded package
 RUN rm -f /tmp/ansible.deb
+
+## Test ansible version
+COPY test-ansible-version.sh /test-ansible-version.sh
 
 ## go back to jenkins
 USER jenkins
