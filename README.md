@@ -17,6 +17,8 @@ How it's work
 
   `` docker volume create --name=jenkins-data  ``
 
+* Set your timezone in docker-compose.yml
+
 * Run Jenkins:
 
     `` docker-compose up -d ``

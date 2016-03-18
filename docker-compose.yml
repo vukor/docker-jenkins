@@ -17,3 +17,6 @@ services:
       - jenkins-data:/var/jenkins_home/
       - ./backup:/backup/
       - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - JAVA_OPTS=-Duser.timezone="Asia/Novosibirsk"
+
