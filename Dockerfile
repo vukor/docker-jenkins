@@ -30,7 +30,7 @@ RUN dpkg -i /tmp/ansible.deb
 RUN rm -f /tmp/ansible.deb
 
 ## Test ansible version
-COPY test-ansible-version.sh /test-ansible-version.sh
+COPY test-ansible-version.sh /
 
 ## go back to jenkins
 USER jenkins
