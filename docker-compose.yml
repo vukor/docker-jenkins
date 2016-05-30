@@ -18,5 +18,5 @@ services:
       - ./backup:/backup/
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      - JAVA_OPTS=-Duser.timezone="Asia/Novosibirsk"
+      - JAVA_OPTS=-Duser.timezone="Asia/Tomsk"
 
