@@ -1,4 +1,4 @@
-## Version: 0.4
+## Version: 0.5
 FROM jenkins
 MAINTAINER Anton Bugreev <anton@bugreev.ru>
 
@@ -11,7 +11,7 @@ RUN curl -fsSL https://get.docker.com/ | sh && \
 RUN usermod -aG docker jenkins
 
 ## Set timezone
-RUN cp -f /usr/share/zoneinfo/Asia/Novosibirsk /etc/localtime
+RUN cp -f /usr/share/zoneinfo/Asia/Tomsk /etc/localtime
 
 ## Install Ansible 1.9
 RUN wget https://launchpad.net/~ansible/+archive/ubuntu/ansible-1.9/+files/ansible_1.9.4-1ppa~trusty_all.deb -O /tmp/ansible.deb && \
