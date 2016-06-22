@@ -1,4 +1,4 @@
-## Version: 0.5
+## Version: 0.6
 FROM jenkins
 MAINTAINER Anton Bugreev <anton@bugreev.ru>
 
@@ -34,4 +34,5 @@ COPY test-ansible-version.sh /
 
 ## go back to jenkins
 USER jenkins
+WORKDIR /var/jenkins_home/
 
